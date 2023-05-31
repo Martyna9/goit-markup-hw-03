@@ -227,19 +227,6 @@ footer {
   background: #f5f4fa;
 }
 
-.page-header {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  justify-self: unset;
-}
-
-.second-page-header {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-}
-
 .heading {
   width: 1600px;
   height: 80px;
@@ -261,20 +248,29 @@ footer {
   top: 280px;
 }
 
-.second-page-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .section-ipsum {
   width: 270px;
   height: 16px;
   left: 215px;
   top: 774px;
+  background: #e5e5e5;
 }
 
 .container {
   width: 1200px;
   margin: 0 auto;
+}
+
+.pond {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu {
+  display: flex;
+}
+
+.page-header {
+  display: flex;
+  justify-content: flex-start;
 }
