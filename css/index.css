@@ -274,3 +274,7 @@ footer {
   display: flex;
   justify-content: flex-start;
 }
+
+ul {
+  list-style-type: none;
+}
